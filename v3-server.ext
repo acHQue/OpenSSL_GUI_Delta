@@ -1,0 +1,7 @@
+basicConstraints                    = CA:FALSE
+nsCertType			    = server
+authorityKeyIdentifier		    = keyid,issuer:always
+subjectKeyIdentifier                = hash
+keyUsage			    = critical, digitalSignature, keyEncipherment
+extendedKeyUsage		    = serverAuth
+nsComment                           = "Indexer Server Certificate external"

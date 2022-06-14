@@ -1,0 +1,7 @@
+basicConstraints 			= CA:FALSE
+nsCertType 				= client, email
+subjectKeyIdentifier 			= hash
+authorityKeyIdentifier 			= keyid,issuer
+keyUsage 				= critical, nonRepudiation, digitalSignature, keyEncipherment
+extendedKeyUsage			= clientAuth, emailProtection
+nsComment                           	= "Indexer Client Certificate external!"
